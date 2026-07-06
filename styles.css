@@ -885,6 +885,33 @@
     transform: translateY(0);
 }
 
+.book .back-home {
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.book .home-btn {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+}
+
+.book .home-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.8);
+}
+
 @media only screen and (max-width: 768px){
     .header .nav,.header .account{
         display: none;
